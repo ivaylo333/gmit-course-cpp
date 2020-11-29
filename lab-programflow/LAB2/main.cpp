@@ -5,5 +5,6 @@ using namespace std;
 int main()
 {
     helloFinction();
+     helloFinction(2);
     return 0;
 }
