@@ -22,6 +22,8 @@ int main()
     temperature_celsius(1);
     cout<<"Even Numbers between 1 and 1000"<<endl;
     EvenNumbers(1000);
+    cout<<"Display ODD numbers in range"<<endl;
     OddNumbers(1,2);
+    cout<<"some function"<<endl;
     FNC_1();
 }
