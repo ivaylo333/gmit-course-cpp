@@ -118,6 +118,19 @@ cin>>NUM_2;
             cout << i << " ";
     }
 }
+
+// function for 6 random numbers
+void  Random_numbers()
+{
+
+   for (int count=1; count <= 100; ++count)
+   {
+      cout <<rand() << "\t";
+       if (count % 5 == 0)
+        cout << "\n";
+     }
+}
+
 // FNC1
 void FNC_1(){
 
@@ -153,3 +166,17 @@ if (count > 0)
  cout << "Average is " << (double) sum / count;
 
 }
+
+// function that is printing Finished 10 times
+
+void finsih_func(){
+int i=0;
+while (i >= 0 && i<=10)
+{
+cout<<"Finish"<<endl;
+i=i+1;
+
+}
+}
+
+

@@ -24,6 +24,10 @@ int main()
     EvenNumbers(1000);
     cout<<"Display ODD numbers in range"<<endl;
     OddNumbers(1,2);
-    cout<<"some function"<<endl;
+    cout<<"random numbers"<<endl;
+    Random_numbers();
+    cout<<"making function working"<<endl;
     FNC_1();
+    cout<<"finish function"<<endl;
+    finsih_func();
 }
