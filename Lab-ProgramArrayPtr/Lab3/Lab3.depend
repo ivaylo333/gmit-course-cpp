@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1608293654 source:/home/ivaylo/gmit-course-cpp/Lab-ProgramArrayPtr/Lab3/main.cpp
+1609155477 source:/home/ivaylo/gmit-course-cpp/Lab-ProgramArrayPtr/Lab3/main.cpp
 	<iostream>
 	"functions.h"
 
-1608294213 /home/ivaylo/gmit-course-cpp/Lab-ProgramArrayPtr/Lab3/functions.h
+1609156054 /home/ivaylo/gmit-course-cpp/Lab-ProgramArrayPtr/Lab3/functions.h
 	<iostream>
 
