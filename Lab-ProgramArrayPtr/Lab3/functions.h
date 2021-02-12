@@ -1,4 +1,5 @@
 #include<iostream>
+#include<fstream>
 using namespace std;
 // lab info:
 void labInfo(){
@@ -65,6 +66,78 @@ while (temp_string=="Happy_Christmas"&& j<=5){
 	   cout << endl;
 	}
 	}
+}
+// create and write to file
+void create_file(){
+
+fstream my_file;
+my_file.open("my_file.txt", ios::out);
+
+if (!my_file){
+cout<<"File not created";
+}
+else{
+cout<<"File created successifuly";
+int A=0;
+while(A < 5){
+A++;
+my_file<<A;
+}
+my_file.close();
+}
+
+}
+// read file
+void read_file(){
+
+fstream my_file;
+my_file.open("my_file.txt",ios::in);
+
+if(!my_file){
+cout<<"No such file"<<endl;
+}
+else {
+int A;
+while(A<=10){
+my_file>>A;
+cout<<A;
+if(my_file.eof())
+break;
+}
+my_file.close();
+}
+
+}
+
+void read_file_by_line(){
+fstream infile;
+infile.open("my_file.txt",ios::in);
+int a, b;
+while(infile>>a>>b){
+cout<<a<<"*"<<b<<"="<<a*b<<endl;
+}
+}
+
+void RWF_Math_addition(){
+
+fstream infile;
+infile.open("my_file.txt",ios::in);
+int a, b;
+while(infile>>a>>b){
+fstream my_file1;
+my_file1.open("my_file1.txt",ios::out);
+if (!my_file1){
+cout<<"File not created";
+}
+else{
+my_file1<<"File created successifuly";
+my_file1<<a<<"*"<<b<<"="<<a*b<<endl;
+}
+my_file1.close();
+}
+
+
+
 }
 
 

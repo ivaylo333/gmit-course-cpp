@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1613131099 source:/home/ivaylo/gmit-course-cpp/lab-program-class/main.cpp
+	<iostream>
+	"functions.h"
+	"labInfo.h"
+	<string>
+
+1613129255 /home/ivaylo/gmit-course-cpp/lab-program-class/functions.h
+	<iostream>
+
+1613130986 /home/ivaylo/gmit-course-cpp/lab-program-class/labInfo.h
+
