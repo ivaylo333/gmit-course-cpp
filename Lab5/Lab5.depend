@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1614372739 source:/home/ivaylo/gmit-course-cpp/Lab5/main.cpp
+	<iostream>
+	<string>
+	"football_club.h"
+	"player.h"
+
+1614371435 /home/ivaylo/gmit-course-cpp/Lab5/football_club.h
+	<iostream>
+	<string>
+
+1614372776 /home/ivaylo/gmit-course-cpp/Lab5/player.h
+	<iostream>
+	<string>
+
