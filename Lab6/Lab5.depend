@@ -13,3 +13,17 @@
 	<iostream>
 	<string>
 
+1615554840 source:/home/ivaylo/gmit-course-cpp/Lab6/main.cpp
+	<iostream>
+	<string>
+	"football_club.h"
+
+1615552943 /home/ivaylo/gmit-course-cpp/Lab6/football_club.h
+	<iostream>
+	<string>
+	"player.h"
+
+1615548144 /home/ivaylo/gmit-course-cpp/Lab6/player.h
+	<iostream>
+	<string>
+
