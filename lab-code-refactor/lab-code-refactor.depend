@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1616792297 source:/home/ivaylo/gmit-course-cpp/lab-code-refactor/football_club.cpp
+	"football_club.h"
+
+1616792280 /home/ivaylo/gmit-course-cpp/lab-code-refactor/football_club.h
+	<iostream>
+	"player.h"
+
+1616772596 /home/ivaylo/gmit-course-cpp/lab-code-refactor/player.h
+	<iostream>
+
+1616792541 source:/home/ivaylo/gmit-course-cpp/lab-code-refactor/main.cpp
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	"football_club.h"
+
+1616772707 source:/home/ivaylo/gmit-course-cpp/lab-code-refactor/player.cpp
+	"player.h"
+
+1615549574 source:/home/ivaylo/gmit-course-cpp/lab-code-refactor/src/atest.cpp
+	"atest.h"
+
+1615549574 /home/ivaylo/gmit-course-cpp/lab-code-refactor/include/atest.h
+

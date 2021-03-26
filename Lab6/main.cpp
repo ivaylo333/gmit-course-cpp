@@ -1,10 +1,12 @@
 #include <iostream>
 #include<string>
 #include"football_club.h"
+#include<fstream>
 using namespace std;
-
 int main()
 {
+
+
 // Buld the football club
 cout<<"*******Football club Beroe*******"<<endl;
 FootballClub Beroe;
@@ -60,6 +62,29 @@ cout<<"*******TONIGHT GAME PLAYERS*******"<<endl;
 for (int id=1;id<21;++id){
 Beroe.squad[id].printPlayerInfo();
 }
+
+
+/*fstream infile;
+infile.open("team1.txt",ios::in);
+string firstname , secondname;
+string line;
+
+while(std::getline(infile,line)){
+
+cout <<line <<endl;
+std::istringstream strLine(line);
+if(!strLine>>firstname>>secondname))
+{
+break;
+
+}
+else{
+cout<<firstname<<".............."<<secondname<<endl;
+}
+}
+*/
+return 0;
+
 }
 
 
